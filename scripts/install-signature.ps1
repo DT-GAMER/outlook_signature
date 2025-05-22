@@ -1,5 +1,5 @@
-$templatePath = Join-Path $PSScriptRoot "..\signature\signature-template.html"
-$userCsvPath = Join-Path $PSScriptRoot "..\signature\users.csv"
+$templatePath = Join-Path $PSScriptRoot "..\signatures\signature-template.html"
+$userCsvPath = Join-Path $PSScriptRoot "..\signatures\users.csv"
 $signatureFolder = Join-Path $env:APPDATA "Microsoft\Signatures"
 
 # Create signature folder if missing
